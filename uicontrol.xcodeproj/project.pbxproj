@@ -19,6 +19,7 @@
 		D3CD7681196439EF00B6B51B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CD7669196439EE00B6B51B /* UIKit.framework */; };
 		D3CD7689196439EF00B6B51B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3CD7687196439EF00B6B51B /* InfoPlist.strings */; };
 		D3CD768B196439EF00B6B51B /* uicontrolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CD768A196439EF00B6B51B /* uicontrolTests.m */; };
+		D3CD76951964405500B6B51B /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3CD76941964405500B6B51B /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		D3CD7686196439EF00B6B51B /* uicontrolTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "uicontrolTests-Info.plist"; sourceTree = "<group>"; };
 		D3CD7688196439EF00B6B51B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D3CD768A196439EF00B6B51B /* uicontrolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = uicontrolTests.m; sourceTree = "<group>"; };
+		D3CD76941964405500B6B51B /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				D3CD7674196439EE00B6B51B /* zjhAppDelegate.h */,
+				D3CD76941964405500B6B51B /* Storyboard.storyboard */,
 				D3CD7675196439EE00B6B51B /* zjhAppDelegate.m */,
 				D3CD7677196439EE00B6B51B /* Images.xcassets */,
 				D3CD766C196439EE00B6B51B /* Supporting Files */,
@@ -222,6 +225,7 @@
 			files = (
 				D3CD7670196439EE00B6B51B /* InfoPlist.strings in Resources */,
 				D3CD7678196439EE00B6B51B /* Images.xcassets in Resources */,
+				D3CD76951964405500B6B51B /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +446,7 @@
 				D3CD7690196439EF00B6B51B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3CD7691196439EF00B6B51B /* Build configuration list for PBXNativeTarget "uicontrolTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +455,7 @@
 				D3CD7693196439EF00B6B51B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
