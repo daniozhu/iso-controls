@@ -20,6 +20,7 @@
 		D3CD7689196439EF00B6B51B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3CD7687196439EF00B6B51B /* InfoPlist.strings */; };
 		D3CD768B196439EF00B6B51B /* uicontrolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CD768A196439EF00B6B51B /* uicontrolTests.m */; };
 		D3CD76951964405500B6B51B /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3CD76941964405500B6B51B /* Storyboard.storyboard */; };
+		D3CD76DC1964497600B6B51B /* zjhViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CD76DB1964497600B6B51B /* zjhViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		D3CD7688196439EF00B6B51B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D3CD768A196439EF00B6B51B /* uicontrolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = uicontrolTests.m; sourceTree = "<group>"; };
 		D3CD76941964405500B6B51B /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		D3CD76DA1964497600B6B51B /* zjhViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zjhViewController.h; path = ../zjhViewController.h; sourceTree = "<group>"; };
+		D3CD76DB1964497600B6B51B /* zjhViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = zjhViewController.m; path = ../zjhViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 		D3CD766B196439EE00B6B51B /* uicontrol */ = {
 			isa = PBXGroup;
 			children = (
+				D3CD76DA1964497600B6B51B /* zjhViewController.h */,
+				D3CD76DB1964497600B6B51B /* zjhViewController.m */,
 				D3CD7674196439EE00B6B51B /* zjhAppDelegate.h */,
 				D3CD76941964405500B6B51B /* Storyboard.storyboard */,
 				D3CD7675196439EE00B6B51B /* zjhAppDelegate.m */,
@@ -244,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3CD76DC1964497600B6B51B /* zjhViewController.m in Sources */,
 				D3CD7672196439EE00B6B51B /* main.m in Sources */,
 				D3CD7676196439EE00B6B51B /* zjhAppDelegate.m in Sources */,
 			);
@@ -367,6 +373,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "uicontrol/uicontrol-Prefix.pch";
 				INFOPLIST_FILE = "uicontrol/uicontrol-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -380,6 +387,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "uicontrol/uicontrol-Prefix.pch";
 				INFOPLIST_FILE = "uicontrol/uicontrol-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
