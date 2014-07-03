@@ -9,10 +9,28 @@
 #import "zjhViewController.h"
 
 @interface zjhViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *statusLabel;
 
 @end
 
 @implementation zjhViewController
+
+- (IBAction)buttonPressed:(UIButton *)sender
+{
+    NSString *title = [sender titleForState:UIControlStateNormal];
+    NSString *plainText = [NSString stringWithFormat:@"%@ button pressed.", title];
+    
+    //self.statusLabel.text = plainText;
+    NSMutableAttributedString *styledText = [[NSMutableAttributedString alloc]
+                                             initWithString:plainText];
+    NSDictionary *attributes = @{
+                                 NSFontAttributeName :
+                                     [UIFont boldSystemFontOfSize:self.statusLabel.font.pointSize]
+                                 };
+    NSRange nameRange = [plainText rangeOfString:title];
+    [styledText setAttributes:attributes range:nameRange];
+    self.statusLabel.attributedText = styledText;
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
