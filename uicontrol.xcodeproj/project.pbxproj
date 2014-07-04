@@ -21,6 +21,8 @@
 		D3CD768B196439EF00B6B51B /* uicontrolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CD768A196439EF00B6B51B /* uicontrolTests.m */; };
 		D3CD76951964405500B6B51B /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3CD76941964405500B6B51B /* Storyboard.storyboard */; };
 		D3CD76DC1964497600B6B51B /* zjhViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CD76DB1964497600B6B51B /* zjhViewController.m */; };
+		D3CD76DE1966E89200B6B51B /* bloglovin_300_100.png in Resources */ = {isa = PBXBuildFile; fileRef = D3CD76DD1966E89200B6B51B /* bloglovin_300_100.png */; };
+		D3CD76E11966F65A00B6B51B /* zjhControlFunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CD76E01966F65A00B6B51B /* zjhControlFunViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		D3CD76941964405500B6B51B /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		D3CD76DA1964497600B6B51B /* zjhViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zjhViewController.h; path = ../zjhViewController.h; sourceTree = "<group>"; };
 		D3CD76DB1964497600B6B51B /* zjhViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = zjhViewController.m; path = ../zjhViewController.m; sourceTree = "<group>"; };
+		D3CD76DD1966E89200B6B51B /* bloglovin_300_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bloglovin_300_100.png; sourceTree = "<group>"; };
+		D3CD76DF1966F65A00B6B51B /* zjhControlFunViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zjhControlFunViewController.h; sourceTree = "<group>"; };
+		D3CD76E01966F65A00B6B51B /* zjhControlFunViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zjhControlFunViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +121,8 @@
 				D3CD76DB1964497600B6B51B /* zjhViewController.m */,
 				D3CD7674196439EE00B6B51B /* zjhAppDelegate.h */,
 				D3CD76941964405500B6B51B /* Storyboard.storyboard */,
+				D3CD76DF1966F65A00B6B51B /* zjhControlFunViewController.h */,
+				D3CD76E01966F65A00B6B51B /* zjhControlFunViewController.m */,
 				D3CD7675196439EE00B6B51B /* zjhAppDelegate.m */,
 				D3CD7677196439EE00B6B51B /* Images.xcassets */,
 				D3CD766C196439EE00B6B51B /* Supporting Files */,
@@ -126,6 +133,7 @@
 		D3CD766C196439EE00B6B51B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D3CD76DD1966E89200B6B51B /* bloglovin_300_100.png */,
 				D3CD766D196439EE00B6B51B /* uicontrol-Info.plist */,
 				D3CD766E196439EE00B6B51B /* InfoPlist.strings */,
 				D3CD7671196439EE00B6B51B /* main.m */,
@@ -230,6 +238,7 @@
 			files = (
 				D3CD7670196439EE00B6B51B /* InfoPlist.strings in Resources */,
 				D3CD7678196439EE00B6B51B /* Images.xcassets in Resources */,
+				D3CD76DE1966E89200B6B51B /* bloglovin_300_100.png in Resources */,
 				D3CD76951964405500B6B51B /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3CD76DC1964497600B6B51B /* zjhViewController.m in Sources */,
+				D3CD76E11966F65A00B6B51B /* zjhControlFunViewController.m in Sources */,
 				D3CD7672196439EE00B6B51B /* main.m in Sources */,
 				D3CD7676196439EE00B6B51B /* zjhAppDelegate.m in Sources */,
 			);
