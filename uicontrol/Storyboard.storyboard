@@ -142,6 +142,16 @@
                                     <action selector="switchChanged:" destination="DaG-td-PKK" eventType="valueChanged" id="7S8-Rr-0Vl"/>
                                 </connections>
                             </switch>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DYA-CN-Aw0">
+                                <rect key="frame" x="20" y="316" width="280" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Do Something">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="DaG-td-PKK" eventType="touchUpInside" id="r09-hJ-DFa"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -171,6 +181,7 @@
                         </connections>
                     </view>
                     <connections>
+                        <outlet property="doSomethingBUtton" destination="DYA-CN-Aw0" id="H2E-Ck-W63"/>
                         <outlet property="leftSwitch" destination="tbs-G8-gEV" id="3ZE-l2-Exk"/>
                         <outlet property="nameField" destination="HlD-Wp-uAB" id="2lZ-Ru-T33"/>
                         <outlet property="numberField" destination="AOC-UN-z1R" id="x9x-vQ-V8e"/>

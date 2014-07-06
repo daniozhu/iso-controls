@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface zjhControlFunViewController : UIViewController
+@interface zjhControlFunViewController : UIViewController<UIActionSheetDelegate>
 
 @end
