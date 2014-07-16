@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+@class BIDSwitchViewController;
 
 @interface zjhAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) BIDSwitchViewController *switchViewController;
 
 @end

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D39EFF8B1976C695008C31E5 /* BIDSwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39EFF8A1976C695008C31E5 /* BIDSwitchViewController.m */; };
+		D39EFF8E1976C6E0008C31E5 /* BIDBlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39EFF8D1976C6E0008C31E5 /* BIDBlueViewController.m */; };
+		D39EFF911976C6F2008C31E5 /* BIDYellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39EFF901976C6F2008C31E5 /* BIDYellowViewController.m */; };
+		D39EFF931976C829008C31E5 /* SwitchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D39EFF921976C829008C31E5 /* SwitchView.xib */; };
+		D39EFF951976C868008C31E5 /* BlueView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D39EFF941976C868008C31E5 /* BlueView.xib */; };
+		D39EFF971976C882008C31E5 /* YellowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D39EFF961976C882008C31E5 /* YellowView.xib */; };
 		D3CD7666196439EE00B6B51B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CD7665196439EE00B6B51B /* Foundation.framework */; };
 		D3CD7668196439EE00B6B51B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CD7667196439EE00B6B51B /* CoreGraphics.framework */; };
 		D3CD766A196439EE00B6B51B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CD7669196439EE00B6B51B /* UIKit.framework */; };
@@ -38,6 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D39EFF891976C695008C31E5 /* BIDSwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDSwitchViewController.h; sourceTree = "<group>"; };
+		D39EFF8A1976C695008C31E5 /* BIDSwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDSwitchViewController.m; sourceTree = "<group>"; };
+		D39EFF8C1976C6E0008C31E5 /* BIDBlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDBlueViewController.h; sourceTree = "<group>"; };
+		D39EFF8D1976C6E0008C31E5 /* BIDBlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDBlueViewController.m; sourceTree = "<group>"; };
+		D39EFF8F1976C6F2008C31E5 /* BIDYellowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDYellowViewController.h; sourceTree = "<group>"; };
+		D39EFF901976C6F2008C31E5 /* BIDYellowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDYellowViewController.m; sourceTree = "<group>"; };
+		D39EFF921976C829008C31E5 /* SwitchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SwitchView.xib; path = ../SwitchView.xib; sourceTree = "<group>"; };
+		D39EFF941976C868008C31E5 /* BlueView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BlueView.xib; path = ../BlueView.xib; sourceTree = "<group>"; };
+		D39EFF961976C882008C31E5 /* YellowView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YellowView.xib; path = ../YellowView.xib; sourceTree = "<group>"; };
 		D3CD7662196439EE00B6B51B /* uicontrol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uicontrol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3CD7665196439EE00B6B51B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D3CD7667196439EE00B6B51B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -88,6 +103,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D39EFF981976DF93008C31E5 /* SwitchView */ = {
+			isa = PBXGroup;
+			children = (
+				D39EFF891976C695008C31E5 /* BIDSwitchViewController.h */,
+				D39EFF901976C6F2008C31E5 /* BIDYellowViewController.m */,
+				D39EFF8F1976C6F2008C31E5 /* BIDYellowViewController.h */,
+				D39EFF8D1976C6E0008C31E5 /* BIDBlueViewController.m */,
+				D39EFF8C1976C6E0008C31E5 /* BIDBlueViewController.h */,
+				D39EFF8A1976C695008C31E5 /* BIDSwitchViewController.m */,
+				D39EFF941976C868008C31E5 /* BlueView.xib */,
+				D39EFF921976C829008C31E5 /* SwitchView.xib */,
+				D39EFF961976C882008C31E5 /* YellowView.xib */,
+			);
+			name = SwitchView;
+			sourceTree = "<group>";
+		};
+		D39EFF991976E066008C31E5 /* zjhStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				D3CD76E01966F65A00B6B51B /* zjhControlFunViewController.m */,
+				D3CD76DF1966F65A00B6B51B /* zjhControlFunViewController.h */,
+				D3CD76941964405500B6B51B /* Storyboard.storyboard */,
+				D3CD76DB1964497600B6B51B /* zjhViewController.m */,
+				D3CD76DA1964497600B6B51B /* zjhViewController.h */,
+			);
+			name = zjhStoryboard;
+			sourceTree = "<group>";
+		};
 		D3CD7659196439EE00B6B51B = {
 			isa = PBXGroup;
 			children = (
@@ -121,12 +164,9 @@
 		D3CD766B196439EE00B6B51B /* uicontrol */ = {
 			isa = PBXGroup;
 			children = (
-				D3CD76DA1964497600B6B51B /* zjhViewController.h */,
-				D3CD76DB1964497600B6B51B /* zjhViewController.m */,
+				D39EFF991976E066008C31E5 /* zjhStoryboard */,
+				D39EFF981976DF93008C31E5 /* SwitchView */,
 				D3CD7674196439EE00B6B51B /* zjhAppDelegate.h */,
-				D3CD76941964405500B6B51B /* Storyboard.storyboard */,
-				D3CD76DF1966F65A00B6B51B /* zjhControlFunViewController.h */,
-				D3CD76E01966F65A00B6B51B /* zjhControlFunViewController.m */,
 				D3CD7675196439EE00B6B51B /* zjhAppDelegate.m */,
 				D3CD7677196439EE00B6B51B /* Images.xcassets */,
 				D3CD766C196439EE00B6B51B /* Supporting Files */,
@@ -242,11 +282,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D39EFF951976C868008C31E5 /* BlueView.xib in Resources */,
 				D3CD76E319693A4000B6B51B /* blueButton.png in Resources */,
 				D3CD7670196439EE00B6B51B /* InfoPlist.strings in Resources */,
+				D39EFF931976C829008C31E5 /* SwitchView.xib in Resources */,
 				D3CD7678196439EE00B6B51B /* Images.xcassets in Resources */,
 				D3CD76DE1966E89200B6B51B /* bloglovin_300_100.png in Resources */,
 				D3CD76951964405500B6B51B /* Storyboard.storyboard in Resources */,
+				D39EFF971976C882008C31E5 /* YellowView.xib in Resources */,
 				D3CD76E519693A4600B6B51B /* whiteButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +309,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D39EFF8E1976C6E0008C31E5 /* BIDBlueViewController.m in Sources */,
+				D39EFF911976C6F2008C31E5 /* BIDYellowViewController.m in Sources */,
+				D39EFF8B1976C695008C31E5 /* BIDSwitchViewController.m in Sources */,
 				D3CD76DC1964497600B6B51B /* zjhViewController.m in Sources */,
 				D3CD76E11966F65A00B6B51B /* zjhControlFunViewController.m in Sources */,
 				D3CD7672196439EE00B6B51B /* main.m in Sources */,
