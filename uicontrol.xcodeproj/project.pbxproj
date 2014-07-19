@@ -13,6 +13,22 @@
 		D39EFF931976C829008C31E5 /* SwitchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D39EFF921976C829008C31E5 /* SwitchView.xib */; };
 		D39EFF951976C868008C31E5 /* BlueView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D39EFF941976C868008C31E5 /* BlueView.xib */; };
 		D39EFF971976C882008C31E5 /* YellowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D39EFF961976C882008C31E5 /* YellowView.xib */; };
+		D39EFF9D197A609D008C31E5 /* BIDDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39EFF9B197A609D008C31E5 /* BIDDatePickerViewController.m */; };
+		D39EFF9E197A609D008C31E5 /* BIDDatePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D39EFF9C197A609D008C31E5 /* BIDDatePickerViewController.xib */; };
+		D39EFFA3197A616B008C31E5 /* BIDSingleComponentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39EFFA1197A616B008C31E5 /* BIDSingleComponentPickerViewController.m */; };
+		D39EFFA4197A616B008C31E5 /* BIDSingleComponentPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D39EFFA2197A616B008C31E5 /* BIDSingleComponentPickerViewController.xib */; };
+		D39EFFA8197A618E008C31E5 /* BIDDoubleComponentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39EFFA6197A618E008C31E5 /* BIDDoubleComponentPickerViewController.m */; };
+		D39EFFA9197A618E008C31E5 /* BIDDoubleComponentPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D39EFFA7197A618E008C31E5 /* BIDDoubleComponentPickerViewController.xib */; };
+		D39EFFAD197A61A7008C31E5 /* BIDDependentComponentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39EFFAB197A61A7008C31E5 /* BIDDependentComponentPickerViewController.m */; };
+		D39EFFAE197A61A7008C31E5 /* BIDDependentComponentPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D39EFFAC197A61A7008C31E5 /* BIDDependentComponentPickerViewController.xib */; };
+		D39EFFB2197A61B8008C31E5 /* BIDCustomPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39EFFB0197A61B8008C31E5 /* BIDCustomPickerViewController.m */; };
+		D39EFFB3197A61B8008C31E5 /* BIDCustomPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D39EFFB1197A61B8008C31E5 /* BIDCustomPickerViewController.xib */; };
+		D39EFFBA197A65B1008C31E5 /* clockicon.png in Resources */ = {isa = PBXBuildFile; fileRef = D39EFFB5197A65B1008C31E5 /* clockicon.png */; };
+		D39EFFBB197A65B1008C31E5 /* dependenticon.png in Resources */ = {isa = PBXBuildFile; fileRef = D39EFFB6197A65B1008C31E5 /* dependenticon.png */; };
+		D39EFFBC197A65B1008C31E5 /* doubleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = D39EFFB7197A65B1008C31E5 /* doubleicon.png */; };
+		D39EFFBD197A65B1008C31E5 /* singleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = D39EFFB8197A65B1008C31E5 /* singleicon.png */; };
+		D39EFFBE197A65B1008C31E5 /* toolicon.png in Resources */ = {isa = PBXBuildFile; fileRef = D39EFFB9197A65B1008C31E5 /* toolicon.png */; };
+		D39EFFC0197A6644008C31E5 /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D39EFFBF197A6644008C31E5 /* TabBarController.xib */; };
 		D3CD7666196439EE00B6B51B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CD7665196439EE00B6B51B /* Foundation.framework */; };
 		D3CD7668196439EE00B6B51B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CD7667196439EE00B6B51B /* CoreGraphics.framework */; };
 		D3CD766A196439EE00B6B51B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CD7669196439EE00B6B51B /* UIKit.framework */; };
@@ -53,6 +69,27 @@
 		D39EFF921976C829008C31E5 /* SwitchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SwitchView.xib; path = ../SwitchView.xib; sourceTree = "<group>"; };
 		D39EFF941976C868008C31E5 /* BlueView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BlueView.xib; path = ../BlueView.xib; sourceTree = "<group>"; };
 		D39EFF961976C882008C31E5 /* YellowView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YellowView.xib; path = ../YellowView.xib; sourceTree = "<group>"; };
+		D39EFF9A197A609D008C31E5 /* BIDDatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIDDatePickerViewController.h; path = ../BIDDatePickerViewController.h; sourceTree = "<group>"; };
+		D39EFF9B197A609D008C31E5 /* BIDDatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIDDatePickerViewController.m; path = ../BIDDatePickerViewController.m; sourceTree = "<group>"; };
+		D39EFF9C197A609D008C31E5 /* BIDDatePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BIDDatePickerViewController.xib; path = ../BIDDatePickerViewController.xib; sourceTree = "<group>"; };
+		D39EFFA0197A616B008C31E5 /* BIDSingleComponentPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDSingleComponentPickerViewController.h; sourceTree = "<group>"; };
+		D39EFFA1197A616B008C31E5 /* BIDSingleComponentPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDSingleComponentPickerViewController.m; sourceTree = "<group>"; };
+		D39EFFA2197A616B008C31E5 /* BIDSingleComponentPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDSingleComponentPickerViewController.xib; sourceTree = "<group>"; };
+		D39EFFA5197A618E008C31E5 /* BIDDoubleComponentPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDDoubleComponentPickerViewController.h; sourceTree = "<group>"; };
+		D39EFFA6197A618E008C31E5 /* BIDDoubleComponentPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDDoubleComponentPickerViewController.m; sourceTree = "<group>"; };
+		D39EFFA7197A618E008C31E5 /* BIDDoubleComponentPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDDoubleComponentPickerViewController.xib; sourceTree = "<group>"; };
+		D39EFFAA197A61A7008C31E5 /* BIDDependentComponentPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDDependentComponentPickerViewController.h; sourceTree = "<group>"; };
+		D39EFFAB197A61A7008C31E5 /* BIDDependentComponentPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDDependentComponentPickerViewController.m; sourceTree = "<group>"; };
+		D39EFFAC197A61A7008C31E5 /* BIDDependentComponentPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDDependentComponentPickerViewController.xib; sourceTree = "<group>"; };
+		D39EFFAF197A61B8008C31E5 /* BIDCustomPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDCustomPickerViewController.h; sourceTree = "<group>"; };
+		D39EFFB0197A61B8008C31E5 /* BIDCustomPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDCustomPickerViewController.m; sourceTree = "<group>"; };
+		D39EFFB1197A61B8008C31E5 /* BIDCustomPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDCustomPickerViewController.xib; sourceTree = "<group>"; };
+		D39EFFB5197A65B1008C31E5 /* clockicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clockicon.png; sourceTree = "<group>"; };
+		D39EFFB6197A65B1008C31E5 /* dependenticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dependenticon.png; sourceTree = "<group>"; };
+		D39EFFB7197A65B1008C31E5 /* doubleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doubleicon.png; sourceTree = "<group>"; };
+		D39EFFB8197A65B1008C31E5 /* singleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = singleicon.png; sourceTree = "<group>"; };
+		D39EFFB9197A65B1008C31E5 /* toolicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolicon.png; sourceTree = "<group>"; };
+		D39EFFBF197A6644008C31E5 /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
 		D3CD7662196439EE00B6B51B /* uicontrol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uicontrol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3CD7665196439EE00B6B51B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D3CD7667196439EE00B6B51B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -131,6 +168,42 @@
 			name = zjhStoryboard;
 			sourceTree = "<group>";
 		};
+		D39EFF9F197A60BD008C31E5 /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				D39EFFB4197A65B1008C31E5 /* Tab Bar Icons */,
+				D39EFF9B197A609D008C31E5 /* BIDDatePickerViewController.m */,
+				D39EFF9C197A609D008C31E5 /* BIDDatePickerViewController.xib */,
+				D39EFF9A197A609D008C31E5 /* BIDDatePickerViewController.h */,
+				D39EFFA0197A616B008C31E5 /* BIDSingleComponentPickerViewController.h */,
+				D39EFFA1197A616B008C31E5 /* BIDSingleComponentPickerViewController.m */,
+				D39EFFA2197A616B008C31E5 /* BIDSingleComponentPickerViewController.xib */,
+				D39EFFA5197A618E008C31E5 /* BIDDoubleComponentPickerViewController.h */,
+				D39EFFA6197A618E008C31E5 /* BIDDoubleComponentPickerViewController.m */,
+				D39EFFA7197A618E008C31E5 /* BIDDoubleComponentPickerViewController.xib */,
+				D39EFFAA197A61A7008C31E5 /* BIDDependentComponentPickerViewController.h */,
+				D39EFFAB197A61A7008C31E5 /* BIDDependentComponentPickerViewController.m */,
+				D39EFFAC197A61A7008C31E5 /* BIDDependentComponentPickerViewController.xib */,
+				D39EFFAF197A61B8008C31E5 /* BIDCustomPickerViewController.h */,
+				D39EFFB0197A61B8008C31E5 /* BIDCustomPickerViewController.m */,
+				D39EFFB1197A61B8008C31E5 /* BIDCustomPickerViewController.xib */,
+				D39EFFBF197A6644008C31E5 /* TabBarController.xib */,
+			);
+			name = Pickers;
+			sourceTree = "<group>";
+		};
+		D39EFFB4197A65B1008C31E5 /* Tab Bar Icons */ = {
+			isa = PBXGroup;
+			children = (
+				D39EFFB5197A65B1008C31E5 /* clockicon.png */,
+				D39EFFB6197A65B1008C31E5 /* dependenticon.png */,
+				D39EFFB7197A65B1008C31E5 /* doubleicon.png */,
+				D39EFFB8197A65B1008C31E5 /* singleicon.png */,
+				D39EFFB9197A65B1008C31E5 /* toolicon.png */,
+			);
+			path = "Tab Bar Icons";
+			sourceTree = "<group>";
+		};
 		D3CD7659196439EE00B6B51B = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +237,7 @@
 		D3CD766B196439EE00B6B51B /* uicontrol */ = {
 			isa = PBXGroup;
 			children = (
+				D39EFF9F197A60BD008C31E5 /* Pickers */,
 				D39EFF991976E066008C31E5 /* zjhStoryboard */,
 				D39EFF981976DF93008C31E5 /* SwitchView */,
 				D3CD7674196439EE00B6B51B /* zjhAppDelegate.h */,
@@ -282,15 +356,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D39EFF9E197A609D008C31E5 /* BIDDatePickerViewController.xib in Resources */,
+				D39EFFBC197A65B1008C31E5 /* doubleicon.png in Resources */,
+				D39EFFA4197A616B008C31E5 /* BIDSingleComponentPickerViewController.xib in Resources */,
+				D39EFFAE197A61A7008C31E5 /* BIDDependentComponentPickerViewController.xib in Resources */,
+				D39EFFBE197A65B1008C31E5 /* toolicon.png in Resources */,
+				D39EFFB3197A61B8008C31E5 /* BIDCustomPickerViewController.xib in Resources */,
+				D39EFFBB197A65B1008C31E5 /* dependenticon.png in Resources */,
 				D39EFF951976C868008C31E5 /* BlueView.xib in Resources */,
 				D3CD76E319693A4000B6B51B /* blueButton.png in Resources */,
 				D3CD7670196439EE00B6B51B /* InfoPlist.strings in Resources */,
+				D39EFFA9197A618E008C31E5 /* BIDDoubleComponentPickerViewController.xib in Resources */,
 				D39EFF931976C829008C31E5 /* SwitchView.xib in Resources */,
 				D3CD7678196439EE00B6B51B /* Images.xcassets in Resources */,
+				D39EFFBD197A65B1008C31E5 /* singleicon.png in Resources */,
 				D3CD76DE1966E89200B6B51B /* bloglovin_300_100.png in Resources */,
 				D3CD76951964405500B6B51B /* Storyboard.storyboard in Resources */,
 				D39EFF971976C882008C31E5 /* YellowView.xib in Resources */,
+				D39EFFC0197A6644008C31E5 /* TabBarController.xib in Resources */,
 				D3CD76E519693A4600B6B51B /* whiteButton.png in Resources */,
+				D39EFFBA197A65B1008C31E5 /* clockicon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,11 +395,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				D39EFF8E1976C6E0008C31E5 /* BIDBlueViewController.m in Sources */,
+				D39EFFA8197A618E008C31E5 /* BIDDoubleComponentPickerViewController.m in Sources */,
 				D39EFF911976C6F2008C31E5 /* BIDYellowViewController.m in Sources */,
+				D39EFFA3197A616B008C31E5 /* BIDSingleComponentPickerViewController.m in Sources */,
+				D39EFF9D197A609D008C31E5 /* BIDDatePickerViewController.m in Sources */,
+				D39EFFB2197A61B8008C31E5 /* BIDCustomPickerViewController.m in Sources */,
 				D39EFF8B1976C695008C31E5 /* BIDSwitchViewController.m in Sources */,
 				D3CD76DC1964497600B6B51B /* zjhViewController.m in Sources */,
 				D3CD76E11966F65A00B6B51B /* zjhControlFunViewController.m in Sources */,
 				D3CD7672196439EE00B6B51B /* main.m in Sources */,
+				D39EFFAD197A61A7008C31E5 /* BIDDependentComponentPickerViewController.m in Sources */,
 				D3CD7676196439EE00B6B51B /* zjhAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

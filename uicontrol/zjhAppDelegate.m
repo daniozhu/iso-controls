@@ -16,6 +16,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     
+    /*** for switch view *****
     self.switchViewController = [[BIDSwitchViewController alloc] initWithNibName:@"SwitchView" bundle:nil];
     UIView *switchView = self.switchViewController.view;
     CGRect switchViewFrame = switchView.frame;
@@ -24,7 +25,13 @@
     self.window.rootViewController = self.switchViewController;
     //self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+     ***/
     
+    // *** for Pickers
+    [[NSBundle mainBundle] loadNibNamed:@"TabBarController" owner:self options:nil];
+    self.window.rootViewController = self.rootController;
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

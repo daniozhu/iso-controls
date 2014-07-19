@@ -14,4 +14,6 @@
 @property (strong, nonatomic) UIWindow *window;
 @property (strong, nonatomic) BIDSwitchViewController *switchViewController;
 
+@property (strong, nonatomic) IBOutlet UITabBarController *rootController;
+
 @end
