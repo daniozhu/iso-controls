@@ -29,6 +29,7 @@
 		D39EFFBD197A65B1008C31E5 /* singleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = D39EFFB8197A65B1008C31E5 /* singleicon.png */; };
 		D39EFFBE197A65B1008C31E5 /* toolicon.png in Resources */ = {isa = PBXBuildFile; fileRef = D39EFFB9197A65B1008C31E5 /* toolicon.png */; };
 		D39EFFC0197A6644008C31E5 /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D39EFFBF197A6644008C31E5 /* TabBarController.xib */; };
+		D39EFFC2197AB3DC008C31E5 /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = D39EFFC1197AB3DC008C31E5 /* statedictionary.plist */; };
 		D3CD7666196439EE00B6B51B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CD7665196439EE00B6B51B /* Foundation.framework */; };
 		D3CD7668196439EE00B6B51B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CD7667196439EE00B6B51B /* CoreGraphics.framework */; };
 		D3CD766A196439EE00B6B51B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CD7669196439EE00B6B51B /* UIKit.framework */; };
@@ -90,6 +91,7 @@
 		D39EFFB8197A65B1008C31E5 /* singleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = singleicon.png; sourceTree = "<group>"; };
 		D39EFFB9197A65B1008C31E5 /* toolicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolicon.png; sourceTree = "<group>"; };
 		D39EFFBF197A6644008C31E5 /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
+		D39EFFC1197AB3DC008C31E5 /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = "<group>"; };
 		D3CD7662196439EE00B6B51B /* uicontrol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uicontrol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3CD7665196439EE00B6B51B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D3CD7667196439EE00B6B51B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -171,6 +173,7 @@
 		D39EFF9F197A60BD008C31E5 /* Pickers */ = {
 			isa = PBXGroup;
 			children = (
+				D39EFFC1197AB3DC008C31E5 /* statedictionary.plist */,
 				D39EFFB4197A65B1008C31E5 /* Tab Bar Icons */,
 				D39EFF9B197A609D008C31E5 /* BIDDatePickerViewController.m */,
 				D39EFF9C197A609D008C31E5 /* BIDDatePickerViewController.xib */,
@@ -362,6 +365,7 @@
 				D39EFFAE197A61A7008C31E5 /* BIDDependentComponentPickerViewController.xib in Resources */,
 				D39EFFBE197A65B1008C31E5 /* toolicon.png in Resources */,
 				D39EFFB3197A61B8008C31E5 /* BIDCustomPickerViewController.xib in Resources */,
+				D39EFFC2197AB3DC008C31E5 /* statedictionary.plist in Resources */,
 				D39EFFBB197A65B1008C31E5 /* dependenticon.png in Resources */,
 				D39EFF951976C868008C31E5 /* BlueView.xib in Resources */,
 				D3CD76E319693A4000B6B51B /* blueButton.png in Resources */,

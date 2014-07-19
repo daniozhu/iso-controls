@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface BIDSingleComponentPickerViewController : UIViewController
+<UIPickerViewDelegate, UIPickerViewDataSource>
 
+@property (strong, nonatomic) IBOutlet UIPickerView *singlePicker;
+
+- (IBAction)buttonPressed:(UIButton *)sender;
+
+@property (strong, nonatomic) NSArray *characterNames;
 @end
