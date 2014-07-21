@@ -6,7 +6,6 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BIDDependentComponentPickerViewController">
             <connections>
-                <outlet property="button" destination="nbW-N2-iXB" id="YOH-46-fdP"/>
                 <outlet property="dependentPicker" destination="6zA-Kx-IWB" id="oYa-7D-AG3"/>
                 <outlet property="view" destination="1" id="3"/>
             </connections>
