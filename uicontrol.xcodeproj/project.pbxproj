@@ -30,6 +30,15 @@
 		D39EFFBE197A65B1008C31E5 /* toolicon.png in Resources */ = {isa = PBXBuildFile; fileRef = D39EFFB9197A65B1008C31E5 /* toolicon.png */; };
 		D39EFFC0197A6644008C31E5 /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D39EFFBF197A6644008C31E5 /* TabBarController.xib */; };
 		D39EFFC2197AB3DC008C31E5 /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = D39EFFC1197AB3DC008C31E5 /* statedictionary.plist */; };
+		D39EFFCA197D3C21008C31E5 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = D39EFFC4197D3C21008C31E5 /* apple.png */; };
+		D39EFFCB197D3C21008C31E5 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = D39EFFC5197D3C21008C31E5 /* bar.png */; };
+		D39EFFCC197D3C21008C31E5 /* cherry.png in Resources */ = {isa = PBXBuildFile; fileRef = D39EFFC6197D3C21008C31E5 /* cherry.png */; };
+		D39EFFCD197D3C21008C31E5 /* crown.png in Resources */ = {isa = PBXBuildFile; fileRef = D39EFFC7197D3C21008C31E5 /* crown.png */; };
+		D39EFFCE197D3C21008C31E5 /* lemon.png in Resources */ = {isa = PBXBuildFile; fileRef = D39EFFC8197D3C21008C31E5 /* lemon.png */; };
+		D39EFFCF197D3C21008C31E5 /* seven.png in Resources */ = {isa = PBXBuildFile; fileRef = D39EFFC9197D3C21008C31E5 /* seven.png */; };
+		D39EFFD3197D4481008C31E5 /* crunch.wav in Resources */ = {isa = PBXBuildFile; fileRef = D39EFFD1197D4481008C31E5 /* crunch.wav */; };
+		D39EFFD4197D4481008C31E5 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = D39EFFD2197D4481008C31E5 /* win.wav */; };
+		D39EFFD6197D4D61008C31E5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39EFFD5197D4D61008C31E5 /* AudioToolbox.framework */; };
 		D3CD7666196439EE00B6B51B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CD7665196439EE00B6B51B /* Foundation.framework */; };
 		D3CD7668196439EE00B6B51B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CD7667196439EE00B6B51B /* CoreGraphics.framework */; };
 		D3CD766A196439EE00B6B51B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CD7669196439EE00B6B51B /* UIKit.framework */; };
@@ -92,6 +101,15 @@
 		D39EFFB9197A65B1008C31E5 /* toolicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolicon.png; sourceTree = "<group>"; };
 		D39EFFBF197A6644008C31E5 /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
 		D39EFFC1197AB3DC008C31E5 /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = "<group>"; };
+		D39EFFC4197D3C21008C31E5 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		D39EFFC5197D3C21008C31E5 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		D39EFFC6197D3C21008C31E5 /* cherry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cherry.png; sourceTree = "<group>"; };
+		D39EFFC7197D3C21008C31E5 /* crown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crown.png; sourceTree = "<group>"; };
+		D39EFFC8197D3C21008C31E5 /* lemon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lemon.png; sourceTree = "<group>"; };
+		D39EFFC9197D3C21008C31E5 /* seven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seven.png; sourceTree = "<group>"; };
+		D39EFFD1197D4481008C31E5 /* crunch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = crunch.wav; sourceTree = "<group>"; };
+		D39EFFD2197D4481008C31E5 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
+		D39EFFD5197D4D61008C31E5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		D3CD7662196439EE00B6B51B /* uicontrol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uicontrol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3CD7665196439EE00B6B51B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D3CD7667196439EE00B6B51B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -123,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D39EFFD6197D4D61008C31E5 /* AudioToolbox.framework in Frameworks */,
 				D3CD7668196439EE00B6B51B /* CoreGraphics.framework in Frameworks */,
 				D3CD766A196439EE00B6B51B /* UIKit.framework in Frameworks */,
 				D3CD7666196439EE00B6B51B /* Foundation.framework in Frameworks */,
@@ -173,6 +192,8 @@
 		D39EFF9F197A60BD008C31E5 /* Pickers */ = {
 			isa = PBXGroup;
 			children = (
+				D39EFFD0197D4481008C31E5 /* Custom Picker Sounds */,
+				D39EFFC3197D3C21008C31E5 /* Custom Picker Images */,
 				D39EFFC1197AB3DC008C31E5 /* statedictionary.plist */,
 				D39EFFB4197A65B1008C31E5 /* Tab Bar Icons */,
 				D39EFF9B197A609D008C31E5 /* BIDDatePickerViewController.m */,
@@ -207,6 +228,28 @@
 			path = "Tab Bar Icons";
 			sourceTree = "<group>";
 		};
+		D39EFFC3197D3C21008C31E5 /* Custom Picker Images */ = {
+			isa = PBXGroup;
+			children = (
+				D39EFFC4197D3C21008C31E5 /* apple.png */,
+				D39EFFC5197D3C21008C31E5 /* bar.png */,
+				D39EFFC6197D3C21008C31E5 /* cherry.png */,
+				D39EFFC7197D3C21008C31E5 /* crown.png */,
+				D39EFFC8197D3C21008C31E5 /* lemon.png */,
+				D39EFFC9197D3C21008C31E5 /* seven.png */,
+			);
+			path = "Custom Picker Images";
+			sourceTree = "<group>";
+		};
+		D39EFFD0197D4481008C31E5 /* Custom Picker Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				D39EFFD1197D4481008C31E5 /* crunch.wav */,
+				D39EFFD2197D4481008C31E5 /* win.wav */,
+			);
+			path = "Custom Picker Sounds";
+			sourceTree = "<group>";
+		};
 		D3CD7659196439EE00B6B51B = {
 			isa = PBXGroup;
 			children = (
@@ -229,6 +272,7 @@
 		D3CD7664196439EE00B6B51B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D39EFFD5197D4D61008C31E5 /* AudioToolbox.framework */,
 				D3CD7665196439EE00B6B51B /* Foundation.framework */,
 				D3CD7667196439EE00B6B51B /* CoreGraphics.framework */,
 				D3CD7669196439EE00B6B51B /* UIKit.framework */,
@@ -360,6 +404,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D39EFF9E197A609D008C31E5 /* BIDDatePickerViewController.xib in Resources */,
+				D39EFFCB197D3C21008C31E5 /* bar.png in Resources */,
 				D39EFFBC197A65B1008C31E5 /* doubleicon.png in Resources */,
 				D39EFFA4197A616B008C31E5 /* BIDSingleComponentPickerViewController.xib in Resources */,
 				D39EFFAE197A61A7008C31E5 /* BIDDependentComponentPickerViewController.xib in Resources */,
@@ -369,15 +414,22 @@
 				D39EFFBB197A65B1008C31E5 /* dependenticon.png in Resources */,
 				D39EFF951976C868008C31E5 /* BlueView.xib in Resources */,
 				D3CD76E319693A4000B6B51B /* blueButton.png in Resources */,
+				D39EFFD4197D4481008C31E5 /* win.wav in Resources */,
 				D3CD7670196439EE00B6B51B /* InfoPlist.strings in Resources */,
 				D39EFFA9197A618E008C31E5 /* BIDDoubleComponentPickerViewController.xib in Resources */,
 				D39EFF931976C829008C31E5 /* SwitchView.xib in Resources */,
 				D3CD7678196439EE00B6B51B /* Images.xcassets in Resources */,
+				D39EFFCA197D3C21008C31E5 /* apple.png in Resources */,
 				D39EFFBD197A65B1008C31E5 /* singleicon.png in Resources */,
 				D3CD76DE1966E89200B6B51B /* bloglovin_300_100.png in Resources */,
+				D39EFFCC197D3C21008C31E5 /* cherry.png in Resources */,
+				D39EFFCF197D3C21008C31E5 /* seven.png in Resources */,
 				D3CD76951964405500B6B51B /* Storyboard.storyboard in Resources */,
+				D39EFFCD197D3C21008C31E5 /* crown.png in Resources */,
+				D39EFFCE197D3C21008C31E5 /* lemon.png in Resources */,
 				D39EFF971976C882008C31E5 /* YellowView.xib in Resources */,
 				D39EFFC0197A6644008C31E5 /* TabBarController.xib in Resources */,
+				D39EFFD3197D4481008C31E5 /* crunch.wav in Resources */,
 				D3CD76E519693A4600B6B51B /* whiteButton.png in Resources */,
 				D39EFFBA197A65B1008C31E5 /* clockicon.png in Resources */,
 			);
