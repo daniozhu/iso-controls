@@ -1,53 +1,21 @@
 //
 //  zjhAppDelegate.m
-//  uicontrol
+//  SimpleTable
 //
-//  Created by danio on 14-7-2.
+//  Created by danio on 14-7-26.
 //  Copyright (c) 2014年 danio. All rights reserved.
 //
 
 #import "zjhAppDelegate.h"
-#import "BIDSwitchViewController.h"
-#import "BIDSimpleTableViewController.h"
 
 @implementation zjhAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    
-    /*** for switch view *****
-    self.switchViewController = [[BIDSwitchViewController alloc] initWithNibName:@"SwitchView" bundle:nil];
-    UIView *switchView = self.switchViewController.view;
-    CGRect switchViewFrame = switchView.frame;
-    switchViewFrame.origin.y +=[UIApplication sharedApplication].statusBarFrame.size.height;
-    switchView.frame = switchViewFrame;
-    self.window.rootViewController = self.switchViewController;
-    //self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
-     ***/
-    
-    // *** for Pickers
-    //[[NSBundle mainBundle] loadNibNamed:@"TabBarController" owner:self options:nil];
-    //self.window.rootViewController = self.rootController;
-    //self.window.backgroundColor = [UIColor whiteColor];
-    //[self.window makeKeyAndVisible];
-    
-    
-    // ***** for SimpleTableView
-    self.simpleTableViewController = [[BIDSimpleTableViewController alloc] initWithNibName:@"BIDSimpleTableViewController" bundle:nil];
-    UIView *simpleTableView = self.simpleTableViewController.view;
-    CGRect simpleTableViewFrame = simpleTableView.frame;
-    simpleTableViewFrame.origin.y +=[UIApplication sharedApplication].statusBarFrame.size.height;
-    //simpleTableView.frame = simpleTableViewFrame;
-    self.window.rootViewController = self.simpleTableViewController;
-    [self.window makeKeyAndVisible];
-
-    
     return YES;
 }
-
+							
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D39E00271983CAA3008C31E5 /* BIDSimpleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39E00251983CAA3008C31E5 /* BIDSimpleTableViewController.m */; };
+		D39E00281983CAA3008C31E5 /* BIDSimpleTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D39E00261983CAA3008C31E5 /* BIDSimpleTableViewController.xib */; };
 		D39EFF8B1976C695008C31E5 /* BIDSwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39EFF8A1976C695008C31E5 /* BIDSwitchViewController.m */; };
 		D39EFF8E1976C6E0008C31E5 /* BIDBlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39EFF8D1976C6E0008C31E5 /* BIDBlueViewController.m */; };
 		D39EFF911976C6F2008C31E5 /* BIDYellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39EFF901976C6F2008C31E5 /* BIDYellowViewController.m */; };
@@ -57,6 +59,8 @@
 		D3CD76E11966F65A00B6B51B /* zjhControlFunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CD76E01966F65A00B6B51B /* zjhControlFunViewController.m */; };
 		D3CD76E319693A4000B6B51B /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D3CD76E219693A4000B6B51B /* blueButton.png */; };
 		D3CD76E519693A4600B6B51B /* whiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D3CD76E419693A4600B6B51B /* whiteButton.png */; };
+		D3D169B4198C7EC10095E298 /* BIDNamAndColorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D169B3198C7EC10095E298 /* BIDNamAndColorCell.m */; };
+		D3D169B6198C7F760095E298 /* BIDNameAndColorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3D169B5198C7F760095E298 /* BIDNameAndColorCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +74,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D39E00241983CAA3008C31E5 /* BIDSimpleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDSimpleTableViewController.h; sourceTree = "<group>"; };
+		D39E00251983CAA3008C31E5 /* BIDSimpleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDSimpleTableViewController.m; sourceTree = "<group>"; };
+		D39E00261983CAA3008C31E5 /* BIDSimpleTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDSimpleTableViewController.xib; sourceTree = "<group>"; };
 		D39EFF891976C695008C31E5 /* BIDSwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDSwitchViewController.h; sourceTree = "<group>"; };
 		D39EFF8A1976C695008C31E5 /* BIDSwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDSwitchViewController.m; sourceTree = "<group>"; };
 		D39EFF8C1976C6E0008C31E5 /* BIDBlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDBlueViewController.h; sourceTree = "<group>"; };
@@ -134,6 +141,9 @@
 		D3CD76E01966F65A00B6B51B /* zjhControlFunViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zjhControlFunViewController.m; sourceTree = "<group>"; };
 		D3CD76E219693A4000B6B51B /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
 		D3CD76E419693A4600B6B51B /* whiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteButton.png; sourceTree = "<group>"; };
+		D3D169B2198C7EC10095E298 /* BIDNamAndColorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDNamAndColorCell.h; sourceTree = "<group>"; };
+		D3D169B3198C7EC10095E298 /* BIDNamAndColorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDNamAndColorCell.m; sourceTree = "<group>"; };
+		D3D169B5198C7F760095E298 /* BIDNameAndColorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDNameAndColorCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +171,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D39E0021198334A4008C31E5 /* SimpleTable */ = {
+			isa = PBXGroup;
+			children = (
+				D39E00241983CAA3008C31E5 /* BIDSimpleTableViewController.h */,
+				D39E00251983CAA3008C31E5 /* BIDSimpleTableViewController.m */,
+				D39E00261983CAA3008C31E5 /* BIDSimpleTableViewController.xib */,
+				D3D169B2198C7EC10095E298 /* BIDNamAndColorCell.h */,
+				D3D169B3198C7EC10095E298 /* BIDNamAndColorCell.m */,
+				D3D169B5198C7F760095E298 /* BIDNameAndColorCell.xib */,
+			);
+			name = SimpleTable;
+			sourceTree = "<group>";
+		};
 		D39EFF981976DF93008C31E5 /* SwitchView */ = {
 			isa = PBXGroup;
 			children = (
@@ -284,6 +307,7 @@
 		D3CD766B196439EE00B6B51B /* uicontrol */ = {
 			isa = PBXGroup;
 			children = (
+				D39E0021198334A4008C31E5 /* SimpleTable */,
 				D39EFF9F197A60BD008C31E5 /* Pickers */,
 				D39EFF991976E066008C31E5 /* zjhStoryboard */,
 				D39EFF981976DF93008C31E5 /* SwitchView */,
@@ -403,6 +427,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D39E00281983CAA3008C31E5 /* BIDSimpleTableViewController.xib in Resources */,
 				D39EFF9E197A609D008C31E5 /* BIDDatePickerViewController.xib in Resources */,
 				D39EFFCB197D3C21008C31E5 /* bar.png in Resources */,
 				D39EFFBC197A65B1008C31E5 /* doubleicon.png in Resources */,
@@ -414,6 +439,7 @@
 				D39EFFBB197A65B1008C31E5 /* dependenticon.png in Resources */,
 				D39EFF951976C868008C31E5 /* BlueView.xib in Resources */,
 				D3CD76E319693A4000B6B51B /* blueButton.png in Resources */,
+				D3D169B6198C7F760095E298 /* BIDNameAndColorCell.xib in Resources */,
 				D39EFFD4197D4481008C31E5 /* win.wav in Resources */,
 				D3CD7670196439EE00B6B51B /* InfoPlist.strings in Resources */,
 				D39EFFA9197A618E008C31E5 /* BIDDoubleComponentPickerViewController.xib in Resources */,
@@ -452,6 +478,7 @@
 			files = (
 				D39EFF8E1976C6E0008C31E5 /* BIDBlueViewController.m in Sources */,
 				D39EFFA8197A618E008C31E5 /* BIDDoubleComponentPickerViewController.m in Sources */,
+				D3D169B4198C7EC10095E298 /* BIDNamAndColorCell.m in Sources */,
 				D39EFF911976C6F2008C31E5 /* BIDYellowViewController.m in Sources */,
 				D39EFFA3197A616B008C31E5 /* BIDSingleComponentPickerViewController.m in Sources */,
 				D39EFF9D197A609D008C31E5 /* BIDDatePickerViewController.m in Sources */,
@@ -459,6 +486,7 @@
 				D39EFF8B1976C695008C31E5 /* BIDSwitchViewController.m in Sources */,
 				D3CD76DC1964497600B6B51B /* zjhViewController.m in Sources */,
 				D3CD76E11966F65A00B6B51B /* zjhControlFunViewController.m in Sources */,
+				D39E00271983CAA3008C31E5 /* BIDSimpleTableViewController.m in Sources */,
 				D3CD7672196439EE00B6B51B /* main.m in Sources */,
 				D39EFFAD197A61A7008C31E5 /* BIDDependentComponentPickerViewController.m in Sources */,
 				D3CD7676196439EE00B6B51B /* zjhAppDelegate.m in Sources */,

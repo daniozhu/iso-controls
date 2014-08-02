@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 @class BIDSwitchViewController;
+@class BIDSimpleTableViewController;
 
 @interface zjhAppDelegate : UIResponder <UIApplicationDelegate>
 
@@ -15,5 +16,7 @@
 @property (strong, nonatomic) BIDSwitchViewController *switchViewController;
 
 @property (strong, nonatomic) IBOutlet UITabBarController *rootController;
+
+@property (strong, nonatomic) BIDSimpleTableViewController *simpleTableViewController;
 
 @end
