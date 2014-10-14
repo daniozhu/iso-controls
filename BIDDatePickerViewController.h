@@ -1,4 +1,4 @@
-//
+﻿//
 //  BIDDatePickerViewController.h
 //  uicontrol
 //
@@ -12,4 +12,5 @@
 //@property (strong, nonatomic) IBOutlet UIDatePicker *datePicker;
 @property (strong, nonatomic) IBOutlet UIDatePicker *datePicker;
 - (IBAction)buttonPressed;
+- (IBAction)buttonDown;
 @end
